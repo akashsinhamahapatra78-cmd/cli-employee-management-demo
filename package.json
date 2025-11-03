@@ -1,0 +1,24 @@
+{
+  "name": "cli-employee-management-demo",
+  "version": "1.0.0",
+  "description": "A CLI employee management system using Node.js and arrays with CRUD operations",
+  "main": "app.js",
+  "bin": {
+    "employee-cli": "./app.js"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "CLI",
+    "employee",
+    "management",
+    "Node.js",
+    "arrays"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^8.2.5"
+  }
+}
